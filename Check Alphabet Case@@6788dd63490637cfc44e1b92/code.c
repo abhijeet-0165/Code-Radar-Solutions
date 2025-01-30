@@ -5,7 +5,7 @@ int main(){
     char b;
     scanf("%c",&a);
     scanf("%c",&b);
-    if(a>='a' && a<='z'){
+    if(a<='a' && a>='z'){
         printf("Lowercase");
     }
     else{
