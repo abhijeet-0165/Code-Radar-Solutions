@@ -9,4 +9,5 @@ int main(){
     else {
         printf("Uppercase\n");
     }
+    return 0;
 }
