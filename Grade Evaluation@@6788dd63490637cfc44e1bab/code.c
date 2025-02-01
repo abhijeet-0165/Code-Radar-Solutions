@@ -3,8 +3,8 @@
 int main(){
     char a;
     scanf("%c",&a);
-    case(a){
-        case '1':
+    switch(a){
+        case 'A':
         printf("Excellent\n");
         break;
     }
