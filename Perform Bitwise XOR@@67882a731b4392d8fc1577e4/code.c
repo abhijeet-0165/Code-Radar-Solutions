@@ -5,5 +5,5 @@ int main(){
     scanf("%d %d",&a,&b);
     int z;
     z = a ^ b;
-    printf("%z",z);
+    printf("%d",z);
 }
