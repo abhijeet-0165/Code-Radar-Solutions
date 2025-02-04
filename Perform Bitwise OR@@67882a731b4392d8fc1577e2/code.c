@@ -5,7 +5,7 @@ int main(){
     int b;
     scanf("%d %d",&a,&b);
     int z;
-    z = a | b;
-    printf("%1d",&z);
+    z = a or b;
+    printf("%d",&z);
 
 }
