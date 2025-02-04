@@ -15,8 +15,15 @@ int main(){
         case 9:
         printf("Consonant");
         break;
-        default:
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
         printf("Vowel");
+        break;
+        default:
+        printf("Special Character");
         break;
     }
     
