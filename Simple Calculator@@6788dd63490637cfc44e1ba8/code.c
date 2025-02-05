@@ -17,6 +17,6 @@ int main(){
         printf("%.0lf",a/b);
     }
     else{
-        printf("Error");
+        printf("inf");
     }
 }
