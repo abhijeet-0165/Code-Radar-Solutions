@@ -1,13 +1,22 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    double a,b;
     char c;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%lf %lf %lf",&a,&b,&c);
     if(c=='+'){
-        printf(a+b);
+        printf("lf",a+b);
+    }
+    else if(c=='-'){
+        printf("%lf",a-b);
+    }
+    else if(c=='*'){
+        printf("%lf",a*b);
+    }
+    else if(c=='/'){
+        printf("%lf",a/b);
     }
     else{
-        printf("Gg");
+        printf("Error");
     }
 }
