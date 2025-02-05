@@ -1,30 +1,20 @@
 #include <stdio.h>
 
 int main(){
-    char a;
+    char a:
     scanf("%c",&a);
-    switch(a){
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-        printf("Consonant");
-        break;
-        case 'a':
-        case 'e':
-        case 'i':
-        case 'O':
-        case 'u':
-        printf("Vowel");
-        break;
-        default:
-        printf("Special Character");
-        break;
+    if(a>=0 && a<=9){
+        printf("Digit");
     }
+    else if((a>='a' && a<='z'&& a!='a','e','i','o','u' ) || (a>='A' && a<='Z'&& a!= 'A','E','I','O','U') ){
+        printf("Consonant");
+    }
+    else if(a == 'A','a','E','e','I','i','o','O','u','U'){
+        printf("Vowel");
+    }
+    else{
+        printf("Special");
+    }
+
     
 }
