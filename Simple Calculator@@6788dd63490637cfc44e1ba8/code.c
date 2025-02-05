@@ -18,7 +18,7 @@ int main(){
             printf("error");
         }
         else{
-            printf(".0lf",a/b);
+            printf("%.0lf",a/b);
         }
     }
    
