@@ -14,7 +14,7 @@ int main(){
         printf("%.0lf",a*b);
     }
     else if(c=='/'){
-        if(b=='0'){
+        if(b==0){
             printf("error");
         }
         else{
