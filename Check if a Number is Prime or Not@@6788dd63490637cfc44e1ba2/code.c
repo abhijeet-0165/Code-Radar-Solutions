@@ -4,7 +4,7 @@ int main(){
     int a,i,isprime = 1;
     scanf("%d",&a);
     if(a<=1 ){
-        isprime = 0
+        isprime = 0;
     }
     else{
         for(i=2;i<=a;i++){
