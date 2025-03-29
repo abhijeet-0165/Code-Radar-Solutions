@@ -1,9 +1,8 @@
 // Your code here...
 #include<stdio.h>
 
-int isPrime(num){
+int isPrime(int num){
     int i;
-    int num;
     int prime = 1;
     scanf("%d",&num);
     if(num<=1){
