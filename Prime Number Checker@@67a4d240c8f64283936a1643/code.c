@@ -4,6 +4,8 @@
 int isPrime(int num){
     int i;
     int prime = 1;
+    int a=1;
+    int b=2;
     scanf("%d",&num);
     if(num<=1){
         prime=0;
@@ -17,10 +19,10 @@ int isPrime(int num){
         }
     }
     if(prime){
-        printf("1");
+        printf("%d",a);
     }
     else{
-        printf("0");
+        printf("%d",b);
     }
 
 
