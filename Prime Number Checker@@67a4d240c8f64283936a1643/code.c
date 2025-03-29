@@ -1,6 +1,6 @@
 // Your code here...
 
-int isPrime(num){
+int isPrime(int num){
     int num,i;
     prime = 1;
     scanf("%d",&num);
