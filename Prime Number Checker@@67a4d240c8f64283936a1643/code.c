@@ -17,7 +17,12 @@ int isPrime(int num){
             }
         }
     }
-    return 1; // Prime
+    if(prime){
+        return 1; // Prime;
+    }
+    else{
+        return 0; // Prime;
+    }
 
 
 
