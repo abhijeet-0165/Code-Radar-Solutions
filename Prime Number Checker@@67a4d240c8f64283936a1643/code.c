@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 
-int isPrime(int num){
+int isPrime(num){
     int i;
     int num;
     int prime = 1;
