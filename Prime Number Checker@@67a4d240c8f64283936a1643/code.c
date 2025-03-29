@@ -6,12 +6,12 @@ int isPrime(int num){
     int num;
     prime = 1;
     scanf("%d",&num);
-    if(a<=1){
+    if(num<=1){
         prime=0;
     }
     else{
         for(i=2;i<a;i++){
-            if(a%i==0){
+            if(num%i==0){
                 prime=0;
                 break;
             }
