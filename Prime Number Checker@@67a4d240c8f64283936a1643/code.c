@@ -2,7 +2,8 @@
 #include<stdio.h>
 
 int isPrime(int num){
-    int num,i;
+    int i;
+    int num;
     prime = 1;
     scanf("%d",&num);
     if(a<=1){
