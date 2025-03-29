@@ -17,12 +17,7 @@ int isPrime(int num){
             }
         }
     }
-    if(prime){
-        printf("%d",a);
-    }
-    else{
-        printf("%d",b);
-    }
+    return 1; // Prime
 
 
 
