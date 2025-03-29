@@ -6,7 +6,6 @@ int isPrime(int num){
     int prime = 1;
     int a=1;
     int b=2;
-    scanf("%d",&num);
     if(num<=1){
         prime=0;
     }
