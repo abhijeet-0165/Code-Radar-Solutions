@@ -1,6 +1,6 @@
 // Your code here...
 // Your code here...
-void selectionSort(int arr[], int n) {
+void selectionSort(char arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] < arr[j + 1]) {  // Sorting in descending order
@@ -12,7 +12,7 @@ void selectionSort(int arr[], int n) {
     }
 }
 
-int printArray(int arr[], int n) {  // Changed return type to void
+int printArray(char arr[], int n) {  // Changed return type to void
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);  // Print value, not address
     }
