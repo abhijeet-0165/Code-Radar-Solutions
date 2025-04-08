@@ -4,8 +4,6 @@
 int isPrime(int num){
     int i;
     int prime = 1;
-    int a=1;
-    int b=2;
     if(num<=1){
         prime=0;
     }
